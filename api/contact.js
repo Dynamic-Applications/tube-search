@@ -33,7 +33,7 @@ export default async function handler(req, res) {
         from: `"Tube Search Support" <${process.env.EMAIL_USER}>`,
         to: email,
         subject: `Thanks for contacting, ${name}!`,
-        text: `Hi ${name},\n\nThank you for reaching out! I'll get back to you soon.\n\nBest regards.\nMirage Kamran`,
+        text: `Hi ${name},\n\nThank you for reaching out! We will get back to you soon.\n\nBest regards.\nMirage Kamran`,
     };
 
     try {
