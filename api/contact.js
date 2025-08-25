@@ -23,14 +23,14 @@ export default async function handler(req, res) {
     });
 
     const mailOptionsToOwner = {
-        from: process.env.EMAIL_USER,
+        from: `"Tube Search User" <${process.env.EMAIL_USER}>`,
         to: process.env.EMAIL_USER,
         subject: `New contact form submission from ${name}`,
         text: `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`,
     };
 
     const mailOptionsAutoReply = {
-        from: process.env.EMAIL_USER,
+        from: `"Tube Search Support" <${process.env.EMAIL_USER}>`,
         to: email,
         subject: `Thanks for contacting, ${name}!`,
         text: `Hi ${name},\n\nThank you for reaching out! I'll get back to you soon.\n\nBest regards.\nMirage Kamran`,
