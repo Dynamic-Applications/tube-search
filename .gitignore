@@ -29,8 +29,7 @@ dist/
 # ----------------------
 # Tailwind CSS
 # ----------------------
-tailwind.config.js
-postcss.config.js
+
 
 # ----------------------
 # Logs
