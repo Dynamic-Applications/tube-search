@@ -169,15 +169,6 @@ const Navbar = () => {
                             </ScrollLink>
                         )
                     ))}
-                    <a
-                        href={personalInfo.resumeLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block text-center mt-2 mx-4 px-4 py-3 font-mono border-2 border-accent-1 text-accent-1 rounded hover:bg-accent-1 hover:text-primary-bg transition-all duration-300"
-                        onClick={() => setIsOpen(false)}
-                    >
-                        Resume
-                    </a>
                 </motion.div>
             )}
         </motion.nav>
