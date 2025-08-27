@@ -1,4 +1,4 @@
-const server = require("../../../dynamic_apps/filmfaves_be/server");
+const server = require("./server");
 
 const port = process.env.PORT || 4000;
 
